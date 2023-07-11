@@ -1,0 +1,33 @@
+* {
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  background-color: black;
+  transition: all 1s;
+  color: white;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  height: 100vh;
+}
+
+.clock {
+  width: 20vw;
+  height: 31vh;
+  border: 1px solid white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.line {
+  border: 1px solid white;
+  width: 40%;
+  transform-origin: left;
+  margin-left: 100px;
+}
